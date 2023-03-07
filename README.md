@@ -35,13 +35,13 @@ I noted the source files included both both a full-size image for desktop and a 
   src="Product card desktop.png"
   alt="Product card for CHANEL Gabrielle Essence Eau De Parfum"
   title="Product preview card, desktop version"
-  width="100px">
+  width="300px">
 
 <img
   src="Product card mobile.png"
   alt="Product card for CHANEL Gabrielle Essence Eau De Parfum"
   title="Product preview card, mobile version"
-  width="50px">
+  width="150px">
   
 ### Links
 
