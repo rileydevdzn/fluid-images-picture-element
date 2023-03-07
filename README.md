@@ -31,11 +31,11 @@ I noted the source files included both both a full-size image for desktop and a 
 
 ### Screenshots
 
-![Desktop version of product preview card](Product card desktop.png)
-![](./screenshot.jpg)
-
-- desktop version
-- mobile version
+<img
+  src="Product card desktop.png"
+  alt="Product card for CHANEL Gabrielle Essence Eau De Parfum"
+  title="Product preview card, desktop version"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
 
 ### Links
 
