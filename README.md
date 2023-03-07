@@ -31,7 +31,7 @@ I noted the source files included both both a full-size image for desktop and a 
 
 ### Screenshots
 
-![Desktop version of product preview card](Product card desktop.png)
+![Desktop version of product preview card](./Product card desktop.png)
 ![](./screenshot.jpg)
 
 - desktop version
