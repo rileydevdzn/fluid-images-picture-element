@@ -35,8 +35,14 @@ I noted the source files included both both a full-size image for desktop and a 
   src="Product card desktop.png"
   alt="Product card for CHANEL Gabrielle Essence Eau De Parfum"
   title="Product preview card, desktop version"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  style="display: inline-block; margin: 0 auto; max-width: 200px">
 
+<img
+  src="Product card mobile.png"
+  alt="Product card for CHANEL Gabrielle Essence Eau De Parfum"
+  title="Product preview card, mobile version"
+  style="display: inline-block; margin: 0 auto; max-width: 75px">
+  
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
