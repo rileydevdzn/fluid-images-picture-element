@@ -143,12 +143,11 @@ button:hover, button:focus {
     flex-direction: column;
     height: 611px;
   }
-  picture img {
+  .product-card-img {
     width: 100%;
-    max-height: 240px;
     border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
     border-bottom-left-radius: 0;
+    border-top-right-radius: 10px;
   }
   .product-txt {
     padding: 1.5rem;
