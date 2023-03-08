@@ -45,7 +45,7 @@ I noted the source files included both both a full-size image for desktop and a 
   
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Product preview card](https://rileydevdzn.github.io/product-preview-card/)
 
 My solution for responsive images used the `<picture>` element to solve the art direction problem, so I could serve different cropped images for different layouts.  
 
