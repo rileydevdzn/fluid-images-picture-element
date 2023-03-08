@@ -1,38 +1,34 @@
 <!DOCTYPE html>
 <html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>CodePen - FM-Product preview card component-art direction</title>
-  <link rel="stylesheet" href="./style.css">
-
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<iv class="product-card">
-  <picture>
-    <source  srcset="https://assets.codepen.io/3270335/FEM1-image-product-mobile.jpg" media="(max-width: 599px)"/>
-    <source srcset="https://assets.codepen.io/3270335/FEM1-image-product-desktop.jpg" media="(min-width: 600px)"/>
-    <img class="product-card-img" src="https://assets.codepen.io/3270335/FEM1-image-product-desktop.jpg" alt="Bottle of Gabrielle perfume from Chanel"/>
-  </picture>
-  <div class="product-txt">
-    <div class="card-hd">
-      <h1>Gabrielle Essence Eau De Parfum</h1>
-      <h2>Perfume</h2>
-    </div>
-    <p class="card-description">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
-    <div class="card-action">
-      <div class="card-price">
-        <p class="current-price">$149.99</p>
-        <p class="previous-price">$169.99</p>
-      </div>
-      <button type="button" class="add-cart-btn" id="add-to-cart-btn">
-        <img class="cart-icon" src="https://assets.codepen.io/3270335/FEM1-icon-cart.svg" alt="Shopping cart">
-        <p>Add to Cart</p>
-      </button>
-    </div>
-  </div>
-</div>
-<!-- partial -->
+  <head>
+    <meta charset="UTF-8">
+    <title>Product preview card component</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
   
-</body>
+  <body>
+    <div class="product-card">
+      <picture>
+        <source srcset="./prodpreview-image-product-mobile.jpg" media="(max-width: 599px)"/>
+        <source srcset="./prodpreview-image-product-desktop.jpg" media="(min-width: 600px)"/>
+        <img class="product-card-img" src="./prodpreview-image-product-desktop.jpg" alt="Bottle of Gabrielle perfume from Chanel"/>
+      </picture>
+      <div class="product-txt">
+        <div class="card-hd">
+        <h1>Gabrielle Essence Eau De Parfum</h1>
+        <h2>Perfume</h2>
+      </div>
+      <p class="card-description">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+      <div class="card-action">
+        <div class="card-price">
+          <p class="current-price">$149.99</p>
+          <p class="previous-price">$169.99</p>
+        </div>
+        <button type="button" class="add-cart-btn" id="add-to-cart-btn">
+          <img class="cart-icon" src="./prodpreview-icon-cart.svg" alt="Shopping cart">
+          <p>Add to Cart</p>
+        </button>
+      </div>
+    </div>
+  </body>
 </html>
