@@ -1,13 +1,15 @@
-# Product preview card
-
-Building a web component with responsive images using the `<picture>` element, Flexbox and interactive hover states.
+<figure style="text-align:center">
+  <img 
+    src="Product card desktop.png"
+    alt="Product card for CHANEL Gabrielle Essence Eau De Parfum"
+    height="400px">
+</figure>
 
 ## Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshots](#screenshots)
-  - [Links](#links)
+  - [Solution](#solution)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -27,23 +29,17 @@ Users should be able to:
 - See hover and focus states for interactive elements
 - Extra challenge: view the optimal image based on device screen size (responsive images)
 
-I noted the source files included both both a full-size image for desktop and a cropped image for mobile, so I added an additional challenge for myself to use responsive images.
+I noted the source files included both both a full-size image for desktop and a cropped image for mobile, so I added an extra challenge for myself to use responsive images.
 
-### Screenshots
+<figure style="text-align:center">
+  <img 
+    src="Product card mobile.png"
+    alt="Product card for CHANEL Gabrielle Essence Eau De Parfum"
+    height="400px">
+  <figcaption style="font-style:italic">Mobile version</figcaption>
+</figure>
 
-<img 
-  src="Product card desktop.png"
-  alt="Product card for CHANEL Gabrielle Essence Eau De Parfum"
-  title="Product preview card, desktop version"
-  width="300px">
-
-<img
-  src="Product card mobile.png"
-  alt="Product card for CHANEL Gabrielle Essence Eau De Parfum"
-  title="Product preview card, mobile version"
-  width="150px">
-  
-### Links
+### Solution
 
 - Solution URL: [Product preview card](https://rileydevdzn.github.io/product-preview-card/)
 
@@ -74,7 +70,7 @@ The better solution for this project was using the `<picture>` element, so that 
 </picture>
 ```
 
-Styling was a bit trickier. After digging into Stack Overflow, I realized I made a mistake when I initially targeted the `<picture>` element, since the `<img>` element represents the actual presented image. I added a class to the `<img>` element and was able to style as needed.   
+Styling was a bit trickier. After digging into Stack Overflow, I realized I made a mistake when I initially targeted the `<picture>` element with my CSS, since the `<img>` element represents the actual presented image. I added a class to the `<img>` element and was able to style as needed.   
 
 ### Continued development
 
@@ -87,5 +83,5 @@ I found both responsive image solutions were useful for this project, but the `<
 
 ## Author
 
-- Website - [rileydevdzn](https://rileydevdzn.webflow.io)
+- Website - [E. Riley](https://rileydevdzn.webflow.io)
 - Frontend Mentor - [@devrileymk](https://www.frontendmentor.io/profile/devrileymk)
