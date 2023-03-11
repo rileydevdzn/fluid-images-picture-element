@@ -9,7 +9,7 @@
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Solution](#solution)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -43,7 +43,7 @@ I noticed the source files included both a full-sized image for desktop and a cr
   <p><em>Desktop (horizontal) and mobile (vertical) designs</em></p>
 </div>
 
-### Solution
+### Links
 
 - Solution URL: [Product preview card](https://rileydevdzn.github.io/product-preview-card/)
 
