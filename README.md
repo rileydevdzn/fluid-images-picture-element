@@ -31,17 +31,19 @@ Users should be able to:
 
 I noted the source files included both both a full-size image for desktop and a cropped image for mobile, so I added an extra challenge for myself to use responsive images.
 
-<div>
+<div align="center">
     <img
       src="Product card desktop.png"
       alt="Product card for CHANEL Gabrielle Essence Eau De Parfum, desktop version horizontal display with image on the left and product description, pricing, and add to cart button on the right"
       height="300px">
-    <img align="right"
+    <img 
       src="Product card mobile.png"
       alt="Product card for CHANEL Gabrielle Essence Eau De Parfum, mobile version vertical display with image on top and product description, pricing, and add to cart button below"
       height="300px">
-    <p align="center"><em>Desktop (left) and mobile (right) designs</em></p>
+    <p><em>Desktop (left) and mobile (right) designs</em></p>
 </div>
+
+desktop
 
 
 
