@@ -29,29 +29,23 @@ Users should be able to:
 - See hover and focus states for interactive elements
 - Extra challenge: view the optimal image based on device screen size (responsive images)
 
-I noted the source files included both both a full-size image for desktop and a cropped image for mobile, so I added an extra challenge for myself to use responsive images.
+I noticed the source files included both a full-sized image for desktop and a cropped image for mobile, so I added an extra challenge for myself to use responsive images.
 
 <div align="center">
-    <img
-      src="Product card desktop.png"
-      alt="Product card for CHANEL Gabrielle Essence Eau De Parfum, desktop version horizontal display with image on the left and product description, pricing, and add to cart button on the right"
-      height="350px">
-    <img 
-      src="Product card mobile.png"
-      alt="Product card for CHANEL Gabrielle Essence Eau De Parfum, mobile version vertical display with image on top and product description, pricing, and add to cart button below"
-      height="350px">
-    <p><em>Desktop (left) and mobile (right) designs</em></p>
+  <img
+    src="Product card desktop.png"
+    alt="Product card for CHANEL Gabrielle Essence Eau De Parfum, desktop version horizontal display with image on the left and product description, pricing, and add to cart button on the right"
+    height="350px">
+  <img 
+    src="Product card mobile.png"
+    alt="Product card for CHANEL Gabrielle Essence Eau De Parfum, mobile version vertical display with image on top and product description, pricing, and add to cart button on bottom"
+    height="350px">
+  <p><em>Desktop (left) and mobile (right) designs</em></p>
 </div>
-
-desktop
-
-
 
 ### Solution
 
 - Solution URL: [Product preview card](https://rileydevdzn.github.io/product-preview-card/)
-
-My solution for responsive images used the `<picture>` element to solve the art direction problem, so I could serve different cropped images for different layouts.  
 
 ## My process
 
@@ -68,7 +62,7 @@ My solution for responsive images used the `<picture>` element to solve the art 
 
 I experimented with two solutions for responsive images in this project: the first using `srcset` and `sizes` attributes on the `<img>` element, and the second using the `<picture>` element. I worked with both to investigate the pros and cons of each approach. Sometimes as developers we have to work within constraints where a specific method might be unavailable; understanding which methods work best in which situations and being able to provide alternatives is a valuable skill.
 
-The better solution for this project was using the `<picture>` element, so that I could serve a cropped image on mobile and the full-size image on desktop.
+The better solution for this project was using the `<picture>` element, so that I could serve a cropped image on mobile and the full-sized image on desktop.
 
 ```html
 <picture>
@@ -82,12 +76,12 @@ Styling was a bit trickier. After digging into Stack Overflow, I realized I made
 
 ### Continued development
 
-I found both responsive image solutions were useful for this project, but the `<picture>` element was better suited for serving cropped vs. full-size images in this case. I'd like to explore using the "srcset" and "sizes" attributes on the `<img>` element on a future project. I'll continue focusing on responsive design in future projects to find better, more efficient, and more effective approaches to improve my skills.
+I found both responsive image solutions were useful for this project, but the `<picture>` element was better suited for serving cropped vs. full-sized images in this case. I'd like to explore using the `srcset` and `sizes` attributes on the `<img>` element on a future project. I'll continue focusing on responsive design in future projects to find better, more efficient, and more effective approaches to improve my skills.
 
 ### Useful resources
 
 - [MDN Web Docs: Responsive images](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images) - This helped me understand the different methods available for responsive images and best use-cases for each, with examples. 
-- [Stack Overflow: Applying CSS style to the picture element](https://stackoverflow.com/questions/69853065/apply-css-style-only-to-the-loaded-image-frompicture-element) - I was (obviously) not the first person to have this question about styling the `<picture>` element. Stack Overflow is one of my go-to resources when I'm trying to figure out why something isn't working as I expect.   
+- [Stack Overflow: Applying CSS style to the picture element](https://stackoverflow.com/questions/69853065/apply-css-style-only-to-the-loaded-image-frompicture-element) - Stack Overflow is one of my go-to resources when I'm trying to figure out why something isn't working as I expect.   
 
 ## Author
 
