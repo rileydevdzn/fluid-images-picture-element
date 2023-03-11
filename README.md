@@ -31,13 +31,13 @@ Users should be able to:
 
 I noted the source files included both both a full-size image for desktop and a cropped image for mobile, so I added an extra challenge for myself to use responsive images.
 
-<figure align="center">
+<div align="center">
   <img 
     src="Product card mobile.png"
     alt="Product card for CHANEL Gabrielle Essence Eau De Parfum"
     height="400px">
-  <figcaption><em>Mobile version</em></figcaption>
-</figure>
+  <p><em>Mobile version</em></p>
+</div>
 
 
 
