@@ -1,9 +1,9 @@
-<figure style="text-align:center">
+<p align="center">
   <img 
     src="Product card desktop.png"
     alt="Product card for CHANEL Gabrielle Essence Eau De Parfum"
     height="400px">
-</figure>
+</pe>
 
 ## Table of contents
 
@@ -31,13 +31,15 @@ Users should be able to:
 
 I noted the source files included both both a full-size image for desktop and a cropped image for mobile, so I added an extra challenge for myself to use responsive images.
 
-<figure style="text-align:center">
+<figure align="center">
   <img 
     src="Product card mobile.png"
     alt="Product card for CHANEL Gabrielle Essence Eau De Parfum"
     height="400px">
-  <figcaption style="font-style:italic">Mobile version</figcaption>
+  <figcaption><em>Mobile version</em></figcaption>
 </figure>
+
+
 
 ### Solution
 
