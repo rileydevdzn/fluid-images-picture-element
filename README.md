@@ -40,7 +40,7 @@ I noticed the source files included both a full-sized image for desktop and a cr
     src="Product card mobile.png"
     alt="Product card for CHANEL Gabrielle Essence Eau De Parfum, mobile version vertical display with image on top and product description, pricing, and add to cart button on bottom"
     height="350px">
-  <p><em>Desktop (left) and mobile (right) designs</em></p>
+  <p><em>Desktop (horizontal) and mobile (vertical) designs</em></p>
 </div>
 
 ### Solution
