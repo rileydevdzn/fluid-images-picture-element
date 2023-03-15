@@ -86,4 +86,4 @@ I found both responsive image solutions were useful for this project, but the `<
 ## Author
 
 - Website - [E. Riley](https://rileydevdzn.webflow.io)
-- Frontend Mentor - [@devrileymk](https://www.frontendmentor.io/profile/devrileymk)
+- Frontend Mentor - [@rileydevdzn](https://www.frontendmentor.io/profile/rileydevdzn)
