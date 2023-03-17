@@ -66,9 +66,9 @@ The better solution for this project was using the `<picture>` element, so that 
 
 ```html
 <picture>
-  <source srcset="/prodpreview-image-product-mobile.jpg" media="(max-width: 554px)"/>
-  <source srcset="/prodpreview-image-product-desktop.jpg" media="(min-width: 555px)"/>
-  <img class="product-card-img" src="/prodpreview-image-product-desktop.jpg" alt="Bottle of Gabrielle perfume from Chanel"/>
+  <source srcset="./prodpreview-image-product-mobile.jpg" media="(max-width: 554px)"/>
+  <source srcset="./prodpreview-image-product-desktop.jpg" media="(min-width: 555px)"/>
+  <img class="product-card-img" src="./prodpreview-image-product-desktop.jpg" alt="Bottle of Gabrielle perfume from Chanel"/>
 </picture>
 ```
 
