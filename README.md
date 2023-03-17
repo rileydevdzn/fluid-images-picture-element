@@ -45,7 +45,7 @@ I noticed the source files included both a full-sized image for desktop and a cr
 
 ### Links
 
-- Solution URL: [Product preview card](https://rileydevdzn.github.io/product-preview-card/)
+- Solution URL: []()
 
 ## My process
 
@@ -66,8 +66,8 @@ The better solution for this project was using the `<picture>` element, so that 
 
 ```html
 <picture>
-  <source srcset="/prodpreview-image-product-mobile.jpg" media="(max-width: 599px)"/>
-  <source srcset="/prodpreview-image-product-desktop.jpg" media="(min-width: 600px)"/>
+  <source srcset="/prodpreview-image-product-mobile.jpg" media="(max-width: 554px)"/>
+  <source srcset="/prodpreview-image-product-desktop.jpg" media="(min-width: 555px)"/>
   <img class="product-card-img" src="/prodpreview-image-product-desktop.jpg" alt="Bottle of Gabrielle perfume from Chanel"/>
 </picture>
 ```
