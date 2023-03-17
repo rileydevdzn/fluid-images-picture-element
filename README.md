@@ -45,7 +45,7 @@ I noticed the source files included both a full-sized image for desktop and a cr
 
 ### Links
 
-- Solution URL: []()
+- Solution URL: [Product preview card](https://rileydevdzn.github.io/product-preview-card/)
 
 ## My process
 
