@@ -45,7 +45,7 @@ I noticed the source files included both a full-sized image for desktop and a cr
 
 ### Links
 
-- Solution URL: [Product preview card](https://rileydevdzn.github.io/product-preview-card/)
+- Solution URL: [Product preview card](https://rileydevdzn.github.io/fluid-images-picture-element/)
 
 ## My process
 
